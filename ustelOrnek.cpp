@@ -10,11 +10,7 @@ int main()
 	cout << pow(2, a) - 1 << endl;
 	
 }
-	int count (a);
-	{
-		cout << a << endl;
-
-	}
-
+	cout << a << endl;
+	
 	return 0;
 }
