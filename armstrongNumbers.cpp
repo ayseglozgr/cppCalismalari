@@ -5,7 +5,6 @@ int main()
 {
 	int a;
 	int b, c, d, f;
-	
 		for ( a = 100; a < 501; a++)
 		{
 			
