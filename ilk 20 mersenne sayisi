@@ -1,0 +1,21 @@
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int turSayisi;
+	int ilk20 = 20;
+	int sayac = 0;
+
+	for (turSayisi = 0; turSayisi < ilk20; turSayisi++)
+	{
+		cout << turSayisi * 2 + 1 << endl;
+		sayac++;
+
+	}
+	cout << " sayac : " << sayac;
+	return 0;
+}
+
