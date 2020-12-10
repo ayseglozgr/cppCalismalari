@@ -14,15 +14,12 @@ int main()
 			for (k = 1; k < 1000; k++)
 			{
 				temp = i * i + j * j;
-				if (temp==k * k && i + j + k==1000)
+				if ((temp==k * k) && (i + j + k==1000) && (i<j))
 				{
-					if (i<j)
-					{
 						cout << "a : " << i << endl;
 						cout << "b : " << j << endl;
 						cout << "c : " << k << endl;
 						cout << i << j << k << endl;
-					}
 				}
 			}
 		}
