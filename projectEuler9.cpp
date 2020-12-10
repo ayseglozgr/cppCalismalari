@@ -26,4 +26,4 @@ int main()
 		
 	}
 	system("pause");
-}
+} 
